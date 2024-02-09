@@ -10,5 +10,4 @@ fruits.insert(-1, "Avocados")
 print(len(fruits))
 
 print(fruits)
-
-# print(fruits[3:])
+# print(fruits[:3])

@@ -36,13 +36,34 @@ average = total / 5
 
 print(f'Average: {average}')
 
-if average == 0 or average < 40:
+if average >= 0 and average < 40:
     print('Grade: E')
-elif average == 40 or average < 51:
+elif average >= 40 and average < 51:
     print('Grade: D')
-elif average == 51 or average < 61:
+elif average >= 51 and average < 61:
     print('Grade: C')
-elif average == 61 or average < 71:
+elif average >= 61 and average < 71:
     print('Grade: B')
 else:
     print('Grade: A')
+
+# if 91 <= average <= 100:
+#     print('Grade: A1')
+# elif 81 <= average < 91:
+#     print('Grade: A2')
+# elif 71 <= average < 81:
+#     print('Grade: B1')
+# elif 61 <= average < 71:
+#     print('Grade: B2')
+# elif 51 <= average < 61:
+#     print('Grade: C1')
+# elif 41 <= average < 51:
+#     print('Grade: C2')
+# elif 31 <= average < 41:
+#     print('Grade: D1')
+# elif 21 <= average < 31:
+#     print('Grade: D2')
+# elif 0 <= average < 21:
+#     print('Grade: E')
+# else:
+#     print('invalid input!')

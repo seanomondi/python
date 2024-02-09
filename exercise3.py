@@ -21,6 +21,6 @@ english = -90
 #     print('one or both of the numbers is negative')
 
 if math > 0 or english > 0:
-    print('one of the numbers is positive')
+    print('one or both numbers are positive')
 else:
-    print('both numbers are negative')
+    print('one or both numbers are negative')
